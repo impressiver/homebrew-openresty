@@ -22,7 +22,7 @@ class OpenResty < Formula
 
   def options
     [
-      ['--with-luajit', "Compile with support for the Lua Just-In-Time Compiler"],
+      ['--with-luajit', "Compile with support for the Lua Just-In-Time Compiler"]
       ['--with-http_drizzle_module',    "Compile with support for upstream communication with MySQL and/or Drizzle database servers"]
       ['--with-http_postgres_module', 'Compile with support for direct communication with PostgreSQL database servers']
       ['--with-http_iconv_module', 'Compile with support for converting character encodings']
