@@ -125,8 +125,8 @@ class OpenResty < Formula
 end
 
 __END__
---- a/conf/nginx.conf
-+++ b/conf/nginx.conf
+--- a/bundle/nginx-1.0.11/conf/nginx.conf
++++ b/bundle/nginx-1.0.11/conf/nginx.conf
 @@ -33,7 +33,7 @@
      #gzip  on;
 
